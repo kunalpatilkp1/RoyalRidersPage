@@ -1,0 +1,89 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: black;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+
+/* Hero Section Styles */
+
+
+        /* Custom styles for carousel */
+        #carouselExampleInterval {
+          max-width: 1000px;
+          margin: auto;
+      }
+
+      .carousel-item img {
+          width: 800px;
+          height: 560px;
+      }
+
+      /* Custom styles for carousel controls */
+      .carousel-control-prev, .carousel-control-next {
+          width: 5%;
+          background-color: rgba(0, 0, 0, 0.5);
+      }
+
+      .carousel-control-prev-icon, .carousel-control-next-icon {
+          background-image: none;
+      }
+
+      .carousel-control-prev-icon::before, .carousel-control-next-icon::before {
+          color: white;
+          font-size: 2rem;
+      }
+
+      .carousel-control-prev-icon {
+          left: 0;
+      }
+
+      .carousel-control-next-icon {
+          right: 0;
+      }
+
+      .carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+          background-color: rgba(0, 0, 0, 0.7);
+      }
+
+
+
+/* Featured Section Styles */
+.featured {
+  padding: 50px 0;
+}
+
+.featured h2 {
+  margin-bottom: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
